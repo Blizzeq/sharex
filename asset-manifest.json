@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.58ca3d11.css",
-    "main.js": "/static/js/main.bdb2e88f.js",
-    "static/js/787.67f3740b.chunk.js": "/static/js/787.67f3740b.chunk.js",
-    "static/media/Inter-Bold.ttf": "/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
-    "static/media/Inter-SemiBold.ttf": "/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
-    "static/media/Inter-Regular.ttf": "/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
-    "static/media/Graphic Side.svg": "/static/media/Graphic Side.ee2e24a085521556a28c3cc766bd72c7.svg",
-    "static/media/Instagram.svg": "/static/media/Instagram.385503520432ddcfbddaa507bd07e153.svg",
-    "static/media/Gmail.svg": "/static/media/Gmail.f1b3f38b0ccae93e55ff8868dd46cd15.svg",
-    "static/media/Linkedin.svg": "/static/media/Linkedin.7863cdce7dba7319a666a84541bed8f1.svg",
-    "static/media/Facebook.svg": "/static/media/Facebook.f1d2ec23ddca55bd47418fa3b753f59e.svg",
-    "static/media/Icon.svg": "/static/media/Icon.89c5afd2f7aec1e36c8b59f6334a4205.svg",
-    "static/media/Logo.svg": "/static/media/Logo.72fb37f90df220a6408f2db853be78d7.svg",
-    "index.html": "/index.html",
-    "static/media/Frame 453.svg": "/static/media/Frame 453.82b6266073f110a6aa113f0a879fbc03.svg",
-    "static/media/Icon1.svg": "/static/media/Icon1.82b6266073f110a6aa113f0a879fbc03.svg",
-    "main.58ca3d11.css.map": "/static/css/main.58ca3d11.css.map",
-    "main.bdb2e88f.js.map": "/static/js/main.bdb2e88f.js.map",
-    "787.67f3740b.chunk.js.map": "/static/js/787.67f3740b.chunk.js.map"
+    "main.css": "/sharex/static/css/main.66e5035e.css",
+    "main.js": "/sharex/static/js/main.88f34355.js",
+    "static/js/787.67f3740b.chunk.js": "/sharex/static/js/787.67f3740b.chunk.js",
+    "static/media/Inter-Bold.ttf": "/sharex/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
+    "static/media/Inter-SemiBold.ttf": "/sharex/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
+    "static/media/Inter-Regular.ttf": "/sharex/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
+    "static/media/Graphic Side.svg": "/sharex/static/media/Graphic Side.ee2e24a085521556a28c3cc766bd72c7.svg",
+    "static/media/Instagram.svg": "/sharex/static/media/Instagram.385503520432ddcfbddaa507bd07e153.svg",
+    "static/media/Gmail.svg": "/sharex/static/media/Gmail.f1b3f38b0ccae93e55ff8868dd46cd15.svg",
+    "static/media/Linkedin.svg": "/sharex/static/media/Linkedin.7863cdce7dba7319a666a84541bed8f1.svg",
+    "static/media/Facebook.svg": "/sharex/static/media/Facebook.f1d2ec23ddca55bd47418fa3b753f59e.svg",
+    "index.html": "/sharex/index.html",
+    "static/media/Icon.svg": "/sharex/static/media/Icon.89c5afd2f7aec1e36c8b59f6334a4205.svg",
+    "static/media/Logo.svg": "/sharex/static/media/Logo.72fb37f90df220a6408f2db853be78d7.svg",
+    "static/media/Frame 453.svg": "/sharex/static/media/Frame 453.82b6266073f110a6aa113f0a879fbc03.svg",
+    "static/media/Icon1.svg": "/sharex/static/media/Icon1.82b6266073f110a6aa113f0a879fbc03.svg",
+    "main.66e5035e.css.map": "/sharex/static/css/main.66e5035e.css.map",
+    "main.88f34355.js.map": "/sharex/static/js/main.88f34355.js.map",
+    "787.67f3740b.chunk.js.map": "/sharex/static/js/787.67f3740b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.58ca3d11.css",
-    "static/js/main.bdb2e88f.js"
+    "static/css/main.66e5035e.css",
+    "static/js/main.88f34355.js"
   ]
 }
