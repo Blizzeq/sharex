@@ -22,7 +22,7 @@ const Login = () => {
                     <p className={'text-gray2 mb-2'}>Email</p>
                     <input type="text" className={'border border-blue rounded h-8 px-2 w-full'}/>
                     <p className={'text-gray2 mb-2 mt-4'}>Password</p>
-                    <input type="text" className={'border border-blue rounded h-8 px-2 w-full'}/>
+                    <input type="password" className={'border border-blue rounded h-8 px-2 w-full'}/>
                     <div className={'flex justify-between mt-4 mb-6'}>
                         <div className={'flex'}>
                             <input type="checkbox"/>
@@ -31,7 +31,7 @@ const Login = () => {
                         <a href={'/reset'} className={'text-blue'}>Forgot Password</a>
                     </div>
                     <div className={'flex justify-center mb-4'}>
-                    <button className={'bg-blue text-white rounded h-8 w-4/12'}>Sign In</button>
+                    <button className={'bg-blue text-white rounded h-10 w-4/12'}>Sign In</button>
                     </div>
                     <p className={'flex justify-center mb-4'}>or sign in with other accounts?</p>
                     <div className={'flex justify-center mb-4 gap-2'}>
@@ -55,7 +55,7 @@ const Login = () => {
                 </div>
             </div>
             <div className={'flex justify-center items-center h-screen w-full'}>
-                <div className={'w-7/12 text-5xl text-shadow text-white z-10'}>
+                <div className={'w-max text-5xl text-shadow text-white z-10'}>
                     <p>Share your files</p>
                     <p>with ease on <span className={'SemiBold'}>Share X</span></p>
                 </div>
