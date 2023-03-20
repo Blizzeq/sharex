@@ -25,7 +25,7 @@ const Register = () => {
                     </div>
                     <p className={'SemiBold text-3xl flex justify-center mb-4'}>Sign In</p>
                     <p className={'text-gray flex justify-center mb-4'}>Create your Share X account</p>
-                    <div className={'flex justify-between mb-4'}>
+                    <div className={'flex justify-center mb-4'}>
                         <div className={'mr-5'}>
                             <p className={'text-gray2 mb-2'}>First Name</p>
                             <input type="text" className={'border border-blue rounded h-8 px-2 w-full'}/>
@@ -35,7 +35,7 @@ const Register = () => {
                             <input type="text" className={'border border-blue rounded h-8 px-2 w-full'}/>
                         </div>
                     </div>
-                    <div className={'flex justify-between mb-4'}>
+                    <div className={'flex justify-center mb-4'}>
                         <div className={'mr-5'}>
                             <p className={'text-gray2 mb-2'}>Email</p>
                             <input type="text" className={'border border-blue rounded h-8 px-2 w-full'}/>
@@ -45,7 +45,7 @@ const Register = () => {
                             <input type="text" className={'border border-blue rounded h-8 px-2 w-full'}/>
                         </div>
                     </div>
-                    <div className={'flex justify-between mb-4'}>
+                    <div className={'flex justify-center mb-4'}>
                         <div className={'mr-5'}>
                             <p className={'text-gray2 mb-2'}>Password</p>
                             <input type="password" className={'border border-blue rounded h-8 px-2 w-full'}/>
