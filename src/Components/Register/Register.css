@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'InterRegular';
+    src: url('../../Assets/Inter/static/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'InterBold';
+    src: url('../../Assets/Inter/static/Inter-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'InterSemiBold';
+    src: url('../../Assets/Inter/static/Inter-SemiBold.ttf') format('truetype');
+}
+
+.Regular {
+    font-family: 'InterRegular', sans-serif;
+}
+
+.Bold {
+    font-family: 'InterBold', sans-serif;
+}
+
+.SemiBold {
+    font-family: 'InterSemiBold', sans-serif;
+}
