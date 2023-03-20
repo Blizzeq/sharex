@@ -8,6 +8,7 @@ import instagram from '../../Assets/Login/Instagram.svg';
 import linkedin from '../../Assets/Login/Linkedin.svg';
 import logo2 from '../../Assets/Login/Icon.svg';
 import {Link} from "react-router-dom";
+import {LinkContainer} from 'react-router-bootstrap'
 
 const Login = () => {
     return (
@@ -29,29 +30,35 @@ const Login = () => {
                             <input type="checkbox"/>
                             <p className={'text-gray2 ml-2'}>Remember me?</p>
                         </div>
-                        <Link to={'/reset'} className={'text-blue'}>Forgot Password</Link>
+                        <LinkContainer to={'/reset'}>
+                            <a className={'text-blue'}>Forgot Password</a>
+                        </LinkContainer>
                     </div>
                     <div className={'flex justify-center mb-4'}>
-                    <button className={'bg-blue text-white rounded h-10 w-4/12'}>Sign In</button>
+                        <LinkContainer to={'/'}>
+                            <button className={'bg-blue text-white rounded h-10 w-4/12'}>Sign In</button>
+                        </LinkContainer>
                     </div>
                     <p className={'flex justify-center mb-4'}>or sign in with other accounts?</p>
                     <div className={'flex justify-center mb-4 gap-2'}>
-                        <a href={'/'}>
+                        <LinkContainer to={'/'}>
                             <img src={google} alt={'google'}/>
-                        </a>
-                        <a href={'/'}>
+                        </LinkContainer>
+                        <LinkContainer to={'/'}>
                             <img src={facebook} alt={'facebook'}/>
-                        </a>
-                        <a href={'/'}>
+                        </LinkContainer>
+                        <LinkContainer to={'/'}>
                             <img src={instagram} alt={'instagram'}/>
-                        </a>
-                        <a href={'/'}>
+                        </LinkContainer>
+                        <LinkContainer to={'/'}>
                             <img src={linkedin} alt={'linkedin'}/>
-                        </a>
+                        </LinkContainer>
                     </div>
                     <div className={'flex justify-center'}>
                         <p>Don't have an account?</p>
-                        <Link to={'/register'} className={'text-blue ml-5'}>Click here to sign up.</Link>
+                        <LinkContainer to={'/register'}>
+                            <a className={'text-blue ml-5'}>Click here to sign up.</a>
+                        </LinkContainer>
                     </div>
                 </div>
             </div>
@@ -65,7 +72,7 @@ const Login = () => {
                 <img src={bg} alt={'bg'} className={'absolute top-0 left-1/2 h-screen w-1/2 object-cover'}/>
             </div>
             <div>
-                <img src={logo2} alt={'logo'} className={'absolute -top-10 -left-10'} />
+                <img src={logo2} alt={'logo'} className={'absolute -top-10 -left-10'}/>
             </div>
         </div>
     );

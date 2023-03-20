@@ -8,6 +8,7 @@ import linkedin from "../../Assets/Login/Linkedin.svg";
 import graphic from "../../Assets/Register/Graphic Side.svg";
 import logo2 from "../../Assets/Register/Logo.svg";
 import {Link} from "react-router-dom";
+import {LinkContainer} from "react-router-bootstrap";
 
 const Register = () => {
     return (
@@ -61,26 +62,30 @@ const Register = () => {
                         <p className={'text-gray2'}>I agree with the terms of use</p>
                     </div>
                     <div className={'flex justify-center mb-6'}>
-                        <button className={'bg-blue text-white rounded h-10 w-4/12'}>Sign Up</button>
+                        <LinkContainer to={'/'}>
+                            <button className={'bg-blue text-white rounded h-10 w-4/12'}>Sign Up</button>
+                        </LinkContainer>
                     </div>
                     <p className={'flex justify-center mb-4'}>or sign up with other accounts?</p>
                     <div className={'flex justify-center mb-4 gap-2'}>
-                        <a href={'/'}>
+                        <LinkContainer to={'/'}>
                             <img src={google} alt={'google'}/>
-                        </a>
-                        <a href={'/'}>
+                        </LinkContainer>
+                        <LinkContainer to={'/'}>
                             <img src={facebook} alt={'facebook'}/>
-                        </a>
-                        <a href={'/'}>
+                        </LinkContainer>
+                        <LinkContainer to={'/'}>
                             <img src={instagram} alt={'instagram'}/>
-                        </a>
-                        <a href={'/'}>
+                        </LinkContainer>
+                        <LinkContainer to={'/'}>
                             <img src={linkedin} alt={'linkedin'}/>
-                        </a>
+                        </LinkContainer>
                     </div>
                     <div className={'flex justify-center'}>
                         <p className={'mr-2'}>Already have an Account</p>
-                        <Link to={'/'} className={'text-blue'}>Sign in</Link>
+                        <LinkContainer to={'/'}>
+                            <a className={'text-blue'}>Sign in</a>
+                        </LinkContainer>
                     </div>
                 </div>
             </div>
