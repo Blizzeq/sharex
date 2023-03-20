@@ -7,6 +7,7 @@ import instagram from "../../Assets/Login/Instagram.svg";
 import linkedin from "../../Assets/Login/Linkedin.svg";
 import graphic from "../../Assets/Register/Graphic Side.svg";
 import logo2 from "../../Assets/Register/Logo.svg";
+import {Link} from "react-router-dom";
 
 const Register = () => {
     return (
@@ -79,7 +80,7 @@ const Register = () => {
                     </div>
                     <div className={'flex justify-center'}>
                         <p className={'mr-2'}>Already have an Account</p>
-                        <a href={'/'} className={'text-blue'}>Sign in</a>
+                        <Link to={'/'} className={'text-blue'}>Sign in</Link>
                     </div>
                 </div>
             </div>

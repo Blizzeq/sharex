@@ -7,6 +7,7 @@ import facebook from '../../Assets/Login/Facebook.svg';
 import instagram from '../../Assets/Login/Instagram.svg';
 import linkedin from '../../Assets/Login/Linkedin.svg';
 import logo2 from '../../Assets/Login/Icon.svg';
+import {Link} from "react-router-dom";
 
 const Login = () => {
     return (
@@ -28,7 +29,7 @@ const Login = () => {
                             <input type="checkbox"/>
                             <p className={'text-gray2 ml-2'}>Remember me?</p>
                         </div>
-                        <a href={'/reset'} className={'text-blue'}>Forgot Password</a>
+                        <Link to={'/reset'} className={'text-blue'}>Forgot Password</Link>
                     </div>
                     <div className={'flex justify-center mb-4'}>
                     <button className={'bg-blue text-white rounded h-10 w-4/12'}>Sign In</button>
@@ -50,7 +51,7 @@ const Login = () => {
                     </div>
                     <div className={'flex justify-center'}>
                         <p>Don't have an account?</p>
-                        <a href={'/register'} className={'text-blue ml-5'}>Click here to sign up.</a>
+                        <Link to={'/register'} className={'text-blue ml-5'}>Click here to sign up.</Link>
                     </div>
                 </div>
             </div>
