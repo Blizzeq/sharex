@@ -42,16 +42,24 @@ const Login = () => {
                     <p className={'flex justify-center mb-4'}>or sign in with other accounts?</p>
                     <div className={'flex justify-center mb-4 gap-2'}>
                         <LinkContainer to={'/'}>
-                            <img src={google} alt={'google'}/>
+                            <a>
+                                <img src={google} alt={'google'}/>
+                            </a>
                         </LinkContainer>
                         <LinkContainer to={'/'}>
-                            <img src={facebook} alt={'facebook'}/>
+                            <a>
+                                <img src={facebook} alt={'facebook'}/>
+                            </a>
                         </LinkContainer>
                         <LinkContainer to={'/'}>
-                            <img src={instagram} alt={'instagram'}/>
+                            <a>
+                                <img src={instagram} alt={'instagram'}/>
+                            </a>
                         </LinkContainer>
                         <LinkContainer to={'/'}>
-                            <img src={linkedin} alt={'linkedin'}/>
+                            <a>
+                                <img src={linkedin} alt={'linkedin'}/>
+                            </a>
                         </LinkContainer>
                     </div>
                     <div className={'flex justify-center'}>
