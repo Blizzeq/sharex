@@ -7,15 +7,22 @@ import instagram from "../../Assets/Login/Instagram.svg";
 import linkedin from "../../Assets/Login/Linkedin.svg";
 import graphic from "../../Assets/Register/Graphic Side.svg";
 import logo2 from "../../Assets/Register/Logo.svg";
-import {Link} from "react-router-dom";
 import {LinkContainer} from "react-router-bootstrap";
+import Typewriter from "typewriter-effect";
 
 const Register = () => {
     return (
         <div className={'register Regular'}>
             <div className={'flex justify-center items-center h-screen w-full'}>
                 <div className={'w-max text-5xl text-shadow text-white z-10'}>
-                    <p>Share your files</p>
+                    <p>Share your
+                        <Typewriter
+                            options={{
+                                strings: ['projects', 'files', 'photos', 'videos', 'music', 'links', 'notes', 'ideas', 'thoughts', 'stories'],
+                                autoStart: true,
+                                loop: true,
+                            }}
+                        /></p>
                     <p>with ease on <span className={'SemiBold'}>Share X</span></p>
                 </div>
             </div>

@@ -63,3 +63,10 @@
     height: 28px;
     width: 28px;
 }
+
+.Typewriter {
+    /* center the text */
+    display: inline-block;
+    line-height: normal;
+    padding-left: 15px;
+}
