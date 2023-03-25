@@ -9,8 +9,24 @@ import linkedin from '../../Assets/Login/Linkedin.svg';
 import logo2 from '../../Assets/Login/Icon.svg';
 import {LinkContainer} from 'react-router-bootstrap'
 import Typewriter from 'typewriter-effect';
+import {loginSchema} from "../FormValidation/FormValidation";
+import {useFormik} from "formik";
+
+
 
 const Login = () => {
+
+    const formik = useFormik({
+        initialValues: {
+            email: '',
+            password: ''
+        },
+        validationSchema: loginSchema,
+        onSubmit: values => {
+            console.log(values)
+        },
+    });
+
     return (
         <div className={'login Regular'}>
             <div className={'flex justify-center items-center h-screen w-full'}>
@@ -21,10 +37,31 @@ const Login = () => {
                     </div>
                     <p className={'SemiBold text-3xl flex justify-center mb-4'}>Sign In</p>
                     <p className={'text-gray flex justify-center mb-4'}>Sign in to stay connected.</p>
-                    <p className={'text-gray2 mb-2'}>Email</p>
-                    <input type="text" className={'border border-blue rounded h-8 px-2 w-full'}/>
-                    <p className={'text-gray2 mb-2 mt-4'}>Password</p>
-                    <input type="password" className={'border border-blue rounded h-8 px-2 w-full'}/>
+                    <form onSubmit={formik.handleSubmit}>
+                        <p className={'text-gray2 mb-2'}>Email</p>
+                        <input
+                            type="text"
+                            className={'border border-blue rounded h-8 px-2 w-full'}
+                            name="email"
+                            onChange={formik.handleChange}
+                            onBlur={formik.handleBlur}
+                            value={formik.values.email}
+                        />
+                        {formik.touched.email && formik.errors.email ? (
+                            <div className="error">{formik.errors.email}</div>
+                        ) : null}
+                        <p className={'text-gray2 mb-2 mt-4'}>Password</p>
+                        <input
+                            type="password"
+                            className={'border border-blue rounded h-8 px-2 w-full'}
+                            name="password"
+                            onChange={formik.handleChange}
+                            onBlur={formik.handleBlur}
+                            value={formik.values.password}
+                        />
+                        {formik.touched.password && formik.errors.password ? (
+                            <div className="error">{formik.errors.password}</div>
+                        ) : null}
                     <div className={'flex justify-between mt-4 mb-6'}>
                         <div className={'flex'}>
                             <input type="checkbox"/>
@@ -35,10 +72,9 @@ const Login = () => {
                         </LinkContainer>
                     </div>
                     <div className={'flex justify-center mb-4'}>
-                        <LinkContainer to={'/'}>
-                            <button className={'bg-blue text-white rounded h-10 w-4/12'}>Sign In</button>
-                        </LinkContainer>
+                            <button type={'submit'} className={'bg-blue text-white rounded h-10 w-4/12'}>Sign In</button>
                     </div>
+                    </form>
                     <p className={'flex justify-center mb-4'}>or sign in with other accounts?</p>
                     <div className={'flex justify-center mb-4 gap-2'}>
                         <LinkContainer to={'/'}>

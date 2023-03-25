@@ -63,10 +63,3 @@
     grid-template-columns: 1fr 1fr;
     height: 100vh;
 }
-
-.Typewriter {
-    /* center the text */
-    display: inline-block;
-    line-height: normal;
-    padding-left: 15px;
-}

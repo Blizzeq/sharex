@@ -70,3 +70,9 @@
     line-height: normal;
     padding-left: 15px;
 }
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+}
