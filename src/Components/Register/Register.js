@@ -102,7 +102,7 @@ const Register = () => {
                             <div>
                                 <p className={'text-gray2 mb-2'}>Phone No.</p>
                                 <input
-                                    type="text"
+                                    type="number"
                                     className={'border border-blue rounded h-8 px-2 w-full'}
                                     onChange={formik.handleChange}
                                     onBlur={formik.handleBlur}
